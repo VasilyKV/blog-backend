@@ -1,7 +1,5 @@
 {% extends 'base.html' %}
-
 {% block title %}{{ post.title }} - Contact{% endblock %}
-
 {% block content %}
   
   <!--================ Hero sm Banner start =================-->      
@@ -21,9 +19,6 @@
     </div>
   </section>
   <!--================ Hero sm Banner end =================-->    
-
-
-  
 
   <!--================ Start Blog Post Area =================-->
   <section class="blog-post-area section-margin">
@@ -56,7 +51,6 @@
                </div>
               </div>
           
-
                 <div class="comments-area">
                     <h4>{{ post.comments|length }} Comments </h4>
                       {% for comment in post.comments %}
@@ -80,7 +74,6 @@
                 </div>
         </div>
 
-
           <!-- Start Blog Post Siddebar -->
           <div class="col-lg-4 sidebar-widgets">
               <div class="widget-wrap">
@@ -94,7 +87,6 @@
                   </div>
                   <button class="bbtns d-block mt-20 w-100">Subcribe</button>
                 </div>
-
 
                 <div class="single-sidebar-widget post-category-widget">
                   <h4 class="single-sidebar-widget" style="height:200px;">Здесь будет реклама</h4>
